@@ -9,7 +9,7 @@ Tablero::Tablero(int nhormigas, int nmatadores, int ncomida, int _width, int _he
 	width=_width;
 	height=_height;
 
-	m_fuente.loadFromFile(".../../Src/arial.ttf");
+	m_fuente.loadFromFile("../../Src/arial.ttf");
 
 	m_imBackground.loadFromFile("../../Src/back.png");
 	m_sprBackground.setTexture(m_imBackground);

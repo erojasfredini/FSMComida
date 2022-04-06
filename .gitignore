@@ -17,9 +17,9 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
+/[Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
+/[Rr]elease/
 [Rr]eleases/
 x64/
 x86/
@@ -351,4 +351,6 @@ MigrationBackup/
 .ionide/
 
 # Exceptions
-!Externo/
+!Externo/*
+!/Externo/box2d/lib/vs2019/Debug/*
+!/Externo/box2d/lib/vs2019/Release/*
