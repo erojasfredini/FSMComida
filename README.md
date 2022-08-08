@@ -1,2 +1,2 @@
 # FSMSamples
-Ejemplos de FSM para curso
+Ejemplos de FSM para curso.
